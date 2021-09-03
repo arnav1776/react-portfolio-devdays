@@ -1,13 +1,15 @@
 import Icon from '@chakra-ui/icon'
 import { HStack } from '@chakra-ui/layout'
 import React from 'react'
-import { FaFacebookF, FaGoogle, FaSpotify, FaShopify } from 'react-icons/fa'
+import { FaLaptop, FaCode, FaWifi } from 'react-icons/fa'
 
 function Social() {
     return (
-        <div>
-            
-        </div>
+        <HStack spacing="24">
+            <Icon as={FaLaptop} boxSize="50" />
+            <Icon as={FaCode} boxSize="50" />
+            <Icon as={FaWifi} boxSize="50" />
+        </HStack>
     )
 }
 

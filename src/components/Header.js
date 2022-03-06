@@ -24,7 +24,7 @@ function Header() {
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, purple.600)" bgClip='text' >Arnav Sharma</Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>Developer</Text>
                     <Button mt={8} colorScheme="blue" onClick={() =>
-                        window.open("https://arnav1776.github.io/portfolio_website/")
+                        window.open("https://arnav1776.netlify.app/")
                     }>Click to know more</Button>
 
                 </Box>
